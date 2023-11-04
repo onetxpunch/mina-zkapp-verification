@@ -1,11 +1,15 @@
 {
   "name": "mina-zkapp-verification",
   "module": "index.ts",
-  "type": "module",
   "devDependencies": {
     "bun-types": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "o1js": "^0.14.0"
   }
 }
