@@ -2,7 +2,8 @@
   "name": "mina-zkapp-verification",
   "module": "index.ts",
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "drizzle-kit": "^0.20.1"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
@@ -10,8 +11,9 @@
   "type": "module",
   "dependencies": {
     "amqplib": "^0.10.3",
+    "drizzle-orm": "^0.29.0",
     "hono": "^3.9.2",
     "nanoid": "^5.0.3",
-    "o1js": "^0.14.0"
+    "o1js": "^0.14.1"
   }
 }
